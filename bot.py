@@ -22,8 +22,8 @@ def next_action(me, meta, entities):
     # ME
     # Where are we?
     x, y = me.get("x"), me.get("y")
-    # How many coins do we have?
-    coins = me.get("coins")
+    # How much energy do we have?
+    energy = me.get("energy")
     # What is our health level?
     health = me.get("health")
     # How far can we currently look?
