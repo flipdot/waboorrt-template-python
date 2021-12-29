@@ -13,6 +13,7 @@ class Action:
     WALK = "WALK"
     THROW = "THROW"
     LOOK = "LOOK"
+    CHARGE = "CHARGE"
 
 
 @dispatcher.add_method
@@ -57,6 +58,9 @@ def next_action(me, meta, entities):
         {
             "name": Action.LOOK,
             "range": random.randint(3, 10),
+        },
+        {
+            "name": Action.CHARGE,
         }
     ]
 
