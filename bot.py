@@ -39,7 +39,7 @@ def next_action(me, meta, entities):
 
     # This is a list of all entities. You might find your opponent here!
     for entity in entities:
-        x, y = entity.get("x"), entity.get("y")
+        ex, ey = entity.get("x"), entity.get("y")
         # The type is always "BOT". We may introduces obstacles later
         entity_type = entity.get("type")
 
