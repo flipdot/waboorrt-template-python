@@ -7,13 +7,14 @@
 			"x": 1,
 			"y": 2,
 			"energy": 3,
+			"health": 100,
+			"name": "Hans",
 			"view_range": 4.5
 		},
 		"meta": {
 			"w": 100,
 			"h": 200,
 			"tick": 300,
-			"name": "Hans"
 		},
 		"entities": [
 			{
